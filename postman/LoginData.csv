@@ -1,0 +1,5 @@
+﻿email,password,expectedStatus,expectedToHaveToken,testName
+user1111@test.com,ValidPass123!,200,true,"Successful login with a valid user"
+user1112@test.com,ValidPass123!,200,true,"Successful login with another valid user"
+user1111@test.com,wrongpassword,401,false,"Failed login with wrong password"
+nonexistent.user@test.com,anypassword,401,false,"Failed login with a non-existent user"

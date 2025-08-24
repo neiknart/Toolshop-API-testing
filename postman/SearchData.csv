@@ -1,0 +1,12 @@
+﻿searchKeyword,expectedStatus,expectedMinResults,testName
+hammer,200,1,Search for an existing item
+toolkit,200,1,Search for another existing item
+nonexistent_item_xyz,200,0,Search for a non-existent item
+,200,5,Search with an empty keyword (should return multiple items)
+HAMMER,200,1,Search with an uppercase keyword
+hAmMeR,200,1,Search with a mixed-case keyword
+ham,200,1,Search with a partial keyword (substring)
+" hammer ",200,1,"Search with leading and trailing whitespace"
+"Clam Hammer",200,1,Search with multiple words
+!@#$%,200,0,Search with special characters
+'a very long string that will not match anything',200,0,Search with a long non-matching string

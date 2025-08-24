@@ -1,0 +1,4 @@
+first_name,last_name,dob,address,postcode,city,country,state,phone,email,password,expectedStatus,testName
+An,Nguyen,1995-10-20,123 Le Loi St,70000,Ho Chi Minh,Vietnam,Viet Nam,909123456,user10000@test.com,ValidPass123!,201,Successful registration with all valid fields
+Binh,Tran,1995-10-21,456 Ly Thuong Kiet St,10000,Hanoi,Vietnam,Viet Nam,908765432,user10001@test.com,ValidPass123!,201,Successful registration for a second user
+An,Nguyen,1995-10-22,123 Le Loi St,70000,Ho Chi Minh,Vietnam,Viet Nam,909123456,user10000@test.com,ValidPass123!,201,Failed registration with a duplicate email (422 returned)
